@@ -132,7 +132,8 @@ output application/json
 output application/json
 ---
 {
-  message: "Hello, Welcome to MuleSoft!"
+  message: "Hello, Welcome to MuleSoft!",
+  description: "CICD setup done!!!"
 } as Object {encoding: "UTF-8", mediaType: "application/json"}]]></ee:set-payload>
             </ee:message>
         </ee:transform>
